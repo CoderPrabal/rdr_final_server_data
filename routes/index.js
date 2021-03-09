@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 //Initiallising connection string
 var dbConfig  ={
-  server: '10.211.149.104',
-  database: 'SDS_COST_MODEL_DB',
-  user:'prabal_kumar',
-  password:'Prabal@1234',
-  driver: "msnodesqlv8",
+  server: '',
+  database: '',
+  user:'',
+  password:'',
+  driver: "",
   options: {
                 trustedConnection:true,
                 useUTC: true}
